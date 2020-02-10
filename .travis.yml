@@ -1,8 +1,8 @@
-language: cpp
+language: python
+python: "3.8"
 dist: bionic
 sudo: required
 env: CC=gcc-8 CXX=g++-8
-python: "3.8"
 
 addons:
   apt:
